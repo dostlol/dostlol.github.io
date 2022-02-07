@@ -53,10 +53,12 @@ h1 {
 
 h2 {
   font-size: 24px;
+  color: $white;
 }
 
 h3 {
   font-size: 20px;
+  color: $white;
 }
 
 h4 {
@@ -117,7 +119,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $white;
 }
 
 // Specify the color of the selection
@@ -192,7 +194,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -202,7 +204,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
@@ -256,7 +258,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: $white;
     font-size: 22px;
     font-style: italic;
   }
