@@ -68,10 +68,11 @@ h4 {
 
 p {
   margin: 15px 0;
+  color: $white;
 }
 
 a {
-  color: $blue;
+  color: $white;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -217,6 +218,7 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
+  color: $white;
 
   @include mobile {
     float: none;
@@ -227,7 +229,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
