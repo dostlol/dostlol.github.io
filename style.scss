@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: #202126;
+	background: #221621;
   font: 18px/1.4 $helvetica;
   color: $white;
 }
@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  color: #ff9900;
   a {
     color: inherit;
   }
@@ -72,11 +73,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #ff00bf;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #00fff2;
   }
 }
 
@@ -194,7 +195,7 @@ img {
 }
 
 .site-name {
-  margin: 0;
+  margin: 12px;
   color: $white;
   cursor: pointer;
   font-family: $helveticaNeue;
@@ -215,7 +216,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 23px; // @TO  : Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
   color: $white;
@@ -279,7 +280,7 @@ nav {
   margin-top: 50px;
   border-top: 0px solid #ddd;
   border-bottom: 0px solid #ddd;
-  background-color: #44454f;
+  background-color: #221621;
 }
 
 footer {
